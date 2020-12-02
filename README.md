@@ -1,4 +1,5 @@
 # Curate
+<p>This is a clone of a group project from my coding bootcamp so that I may easily update and maintain a functional copy for portfolio purposes without requiring pull request approvals from my former bootcamp team</p>
 
 ## Table of contents
 
