@@ -24,3 +24,5 @@ yarn-error.log*
 
 # data
 /models/Artworks.json
+# Local Netlify folder
+.netlify

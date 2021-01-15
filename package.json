@@ -29,6 +29,7 @@
     "if-env": "^1.0.4",
     "lodash": "^4.17.15",
     "mongoose": "^5.3.16",
+    "netlify": "^6.0.12",
     "normalize.css": "^8.0.1",
     "react-bootstrap": "^1.0.0-beta.14",
     "typeface-montserrat": "0.0.75"

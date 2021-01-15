@@ -50,3 +50,13 @@ https://curateapp-upenn.herokuapp.com/
 
 
 
+# Setup
+
+There is a client and a server.
+
+Server:
+* node server.js
+
+client
+* cd client
+* 
