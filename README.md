@@ -52,11 +52,14 @@ https://curateapp-upenn.herokuapp.com/
 
 # Setup
 
-There is a client and a server.
+There is a client, asset server, API server, and mongo database.
 
 The server connects to mongodb.
 * start mongodb - run mongod in terminal; then run mongo in new terminal
-* node server.js
+* On Digital Ocean, in Linux terminal - follow steps outlined by digital ocean: https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04
+* start node server.js
+* On Digital Ocean, in Linux terminal - follow steps outlined by digital ocean: https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+* Note the digital ocean outlines can be used with any Linux terminal. They just have really good, clear documentation.
 
 client
 * cd client
