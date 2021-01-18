@@ -54,7 +54,8 @@ https://curateapp-upenn.herokuapp.com/
 
 There is a client and a server.
 
-Server:
+The server connects to mongodb.
+* start mongodb - run mongod in terminal; then run mongo in new terminal
 * node server.js
 
 client
