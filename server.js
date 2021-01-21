@@ -30,7 +30,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 //Connect to Mongo
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googenheimapp";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/artists";
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.set('useCreateIndex', true);
 mongoose.set('useFindAndModify', false);

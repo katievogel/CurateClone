@@ -61,6 +61,9 @@ The server connects to mongodb.
 * On Digital Ocean, in Linux terminal - follow steps outlined by digital ocean: https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
 * Note the digital ocean outlines can be used with any Linux terminal. They just have really good, clear documentation.
 
+Using Linux terminal:
 client
 * cd client
-* 
+* npm run start
+server
+* node server.js
