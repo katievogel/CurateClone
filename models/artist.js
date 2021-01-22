@@ -16,6 +16,6 @@ var ArtistSchema = new Schema({
     }
 });
 
-var Artist = mongoose.model("Artist", ArtistSchema);
+var Artist = mongoose.model("Artist", ArtistSchema, "curateArtistsAppDB");
 
 module.exports = Artist;
