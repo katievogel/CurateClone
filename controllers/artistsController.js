@@ -4,15 +4,16 @@ const db = require("../models");
 
 const ARTIST_FIELDS = 'Title Artist Nationality Date URL Medium ThumbnailURL';
 
+function foo (needle) {
+  return db.Artist.find({ Artist: { '$regex': needle, $options: 'i' } }, ARTIST_FIELDS);
+}
+
 module.exports = {
+  foo: foo,
   findAll: function (req, res) {
     console.log('findAll req.query: ', req.query);
     var needle = req.query.name; // e.g. "Otto Wagner"
-
-    db.Artist
-      .find({ Artist: { '$regex': needle, $options: 'i' } }, ARTIST_FIELDS)
-      .then(dbModel => res.json(dbModel))
-      .catch(err => res.status(422).json(err));
+    foo(needle).then(dbModel => res.json(dbModel)).catch(err => res.status(422).json(err));
   },
   findById: function (req, res) {
     db.Artist
